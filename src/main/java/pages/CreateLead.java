@@ -20,7 +20,7 @@ public class CreateLead extends ProjectMethods{
 	@FindBy(how=How.ID, using="createLeadForm_companyName")
 	WebElement comName; 
 	public CreateLead companyName() {
-		type(comName, "Google");//Load Google site
+		type(comName, "Google");
 		return this; 
 	}
 
